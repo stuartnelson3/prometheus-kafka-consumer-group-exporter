@@ -18,6 +18,8 @@ import (
 
 const consumerGroupCommandName = "kafka-consumer-groups.sh"
 
+var version string
+
 func main() {
 	app := cli.NewApp()
 	app.Name = "kafka_consumer_group_exporter"
